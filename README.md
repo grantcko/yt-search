@@ -7,6 +7,7 @@ Search for and download YouTube videos directly to your Downloads folder from th
 ## Dependencies
 
 - `yt-dlp`
+- `mplayer`
 - YouTube Data API key
 - run `bundle install` for gems
 
