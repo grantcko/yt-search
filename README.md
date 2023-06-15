@@ -14,9 +14,8 @@ Search for and download YouTube videos directly to your Downloads folder from th
 
 1. Create an `.env` file in the project's top directory and set the `API_KEY` environment variable to your YouTube Data API key.
 2. Navigate to the project's top directory.
-3. Run `chmod 744 ./bin/yt-search` to make the script executable.
-4. Run `./bin/yt-search` to test that the script is working correctly.
-5. Once the script is working, you can add the `bin` directory to your system's `$PATH` environment variable to make the `yt-search` script executable from anywhere in the terminal.
+3. Run `./yt-search` to test that the script is working correctly.
+4. Once the script is working, you can add the `bin` directory to your system's `$PATH` environment variable to make the `yt-search` script executable from anywhere in the terminal.
 
 ## Usage
 
