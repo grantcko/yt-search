@@ -1,0 +1,8 @@
+#!/usr/bin/ruby
+
+require_relative './youtube-search.rb'
+
+arguments = ARGV
+query = arguments[0]
+
+search(query)
