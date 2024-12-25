@@ -34,5 +34,5 @@ def search(query)
   puts "\n\nCHOOSE A NUMBER:"
   index = STDIN.getc.to_i - 1
 
-  `yt-dlp -o '~/Downloads/%(title)s.%(ext)s' #{urls[index]} && mplayer ~/Downloads/#{titles[index].gsub(' ', '\\ ')}.webm`
+  `yt-dlp -o '~/Downloads/%(title)s.%(ext)s' #{urls[index]} && mplayer ~/Downloads/#{titles[index].gsub(' ', '\\ ')}.gsub("\"", "\\\"").webm`
 end
